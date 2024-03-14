@@ -1,0 +1,26 @@
+{
+  "name": "solana",
+  "version": "1.0.0",
+  "description": "Solana development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Prasad",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-web3js-adapters": "^0.9.1",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.91.0",
+    "body-parser": "^1.20.2",
+    "bs58": "^5.0.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
