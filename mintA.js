@@ -28,8 +28,8 @@ async function main() {
     umi.use(signerIdentity(signer, true));
 
     const ourMetadata = {
-        name: "ChaiT Token",
-        symbol: "CT",
+        name: "ChaiT",
+        symbol: "CHAIT",
         uri: "https://raw.githubusercontent.com/Rahul-Prasad-07/Foundry/main/Metadata.json",
     }
 
